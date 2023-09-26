@@ -1,9 +1,3 @@
-/**
- * @author Timur Kuzhagaliyev <tim.kuzh@gmail.com>
- * @copyright 2020
- * @license MIT
- */
-
 import { faGitAlt } from '@fortawesome/free-brands-svg-icons/faGitAlt';
 import { faLinux } from '@fortawesome/free-brands-svg-icons/faLinux';
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons/faNodeJs';
@@ -65,7 +59,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import { faUpload } from '@fortawesome/free-solid-svg-icons/faUpload';
 import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { ChonkyIconName, ChonkyIconProps } from '@aperturerobotics/chonky';
+import { ChonkyIconName, ChonkyIconProps } from '../../index';
 import React from 'react';
 
 const IconMap: { [iconName in ChonkyIconName]: any } = {
