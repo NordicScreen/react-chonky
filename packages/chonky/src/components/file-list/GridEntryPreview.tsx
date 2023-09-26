@@ -160,7 +160,6 @@ const useFileStyles = makeLocalChonkyStyles((theme) => ({
       shadows.push(`inset ${theme.gridFileEntry.fileColorTint} 0 0 0 999px`);
       return shadows.join(', ');
     },
-    backgroundColor: (state: FileEntryState) => state.color,
     borderRadius: theme.gridFileEntry.borderRadius,
     position: 'relative',
     overflow: 'hidden',
