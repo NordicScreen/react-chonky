@@ -42,7 +42,9 @@ const useFileEntryStyles = makeLocalChonkyStyles((theme) => ({
   },
   gridFileEntryNameContainer: {
     fontSize: theme.gridFileEntry.fontSize,
-    wordBreak: 'break-word',
+    textOverflow: "ellipsis",
+    overflow: "hidden",
+    whiteSpace: "nowrap",
     textAlign: 'center',
     paddingTop: 5,
   },
